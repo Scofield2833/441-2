@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Python Basics for Programming: From Foundations to Practice",
+        "courseware": "Python Fundamentals: Syntax Essentials, Data Types, Control Flow, Functions, and Modular Programming",
+        "assessment": "Online quizzes, coding assignments, and a final project.",
+        "sampleProject": "Build a CLI tool for data processing and analysis"
+    },
+    {
+        "name": "Web Development Basics: Core Fundamentals",
+        "courseware": "HTML5, CSS3, JavaScript, responsive design, and web accessibility.",
+        "assessment": "Hands-On Web Development Journey:Real-World Development TasksPeer Code Reviews & Optimization Capstone Portfolio Showcase.",
+        "sampleProject": "Build a responsive personal portfolio website with interactive elements."
+    },
+    {
+        "name": "Foundations of Database Management",
+        "courseware": "Relational database design, SQL, normalization, and database administration.",
+        "assessment": "Database design exercises, SQL query tasks, and a database implementation project.",
+        "sampleProject": "Database Development Project: Requirements analysis for [Business Type] ER diagram design & normalization SQL schema implementation Data population & validation scripts."
+    },
+    {
+        "name": "NIntroduction to Network Security Essentials",
+        "courseware": "Network protocols, cybersecurity principles, ethical hacking, and security tools.",
+        "assessment": "Security lab exercises, penetration testing simulations, and case studies.",
+        "sampleProject": "Conduct a security assessment of a simulated network environment."
+    },
+    {
+        "name": "Data-Driven Decision Making through Analytics",
+        "courseware": "Data visualization, machine learning basics, Python libraries (Pandas, NumPy, Scikit-learn).",
+        "assessment": "Data analysis projects, predictive modeling tasks, and presentation of findings.",
+        "sampleProject": "Analyze a real-world dataset and develop a machine learning model to predict outcomes."
+    }
+]

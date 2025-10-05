@@ -1,0 +1,79 @@
+[
+    {
+        "name": "Hands-On Python Programming Starter Bundle",
+        "unitNumber": "ICTWEB426",
+        "description": "Comprehensive guide to Python programming for beginners.",
+        "price": "$119.99",
+        "image": "images/1.png"
+    },
+    {
+        "name": "Comprehensive Web Development Toolkit",
+        "unitNumber": "ICTWEB427",
+        "description": "Essential resources for modern web development practices.",
+        "price": "$229.99",
+        "image": "images/2.png"
+    },
+    {
+        "name": "Comprehensive Guide to Database Design",
+        "unitNumber": "ICTWEB428",
+        "description": "Step-by-step guide to designing efficient relational databases.",
+        "price": "$339.99",
+        "image": "images/3.png"
+    },
+    {
+        "name": "Network Security Penetration Testing Toolbox",
+        "unitNumber": "ICTWEB429",
+        "description": "Tools and techniques for securing computer networks.",
+        "price": "$449.99",
+        "image": "images/4.png"
+    },
+    {
+        "name": "Fundamentals to Real-World Applications",
+        "unitNumber": "ICTWEB430",
+        "description": "Practical exercises for learning data science and analytics.",
+        "price": "$559.99",
+        "image": "images/5.png"
+    },
+    {
+        "name": "Software Development Lifecycle: Processes, Methods, and Best Practices",
+        "unitNumber": "ICTWEB431",
+        "description": "Overview of software development methodologies and best practices.",
+        "price": "$465.99",
+        "image": "images/6.png"
+    },
+    {
+        "name": "Cloud Computing Basics: Core Concepts & Models",
+        "unitNumber": "ICTWEB432",
+        "description": "Introduction to cloud services and deployment models.",
+        "price": "$376.99",
+        "image": "images/7.png"
+    },
+    {
+        "name": "Enterprise Mobile App Development Handbook",
+        "unitNumber": "ICTWEB433",
+        "description": "Getting started with mobile app development for Android and iOS.",
+        "price": "$115.99",
+        "image": "images/8.png"
+    },
+    {
+        "name": "DevOps Best Practices: From CI/CD to Culture",
+        "unitNumber": "ICTWEB434",
+        "description": "Implementing DevOps methodologies in software development.",
+        "price": "$227.99",
+        "image": "images/9.png"
+    },
+    {
+        "name": "Cybersecurity Incident Response Case Studies",
+        "unitNumber": "ICTWEB435",
+        "description": "Real-world examples of cybersecurity incidents and solutions.",
+        "price": "$616.99",
+        "image": "images/10.png"
+    },
+    {
+        "name": "IT Project Management Guide",
+        "unitNumber": "ICTWEB436",
+        "description": "Software Development Project Management: Principles & Practice.",
+        "price": "1000$",
+        "image": "images/11.png"
+    }
+]

@@ -1,0 +1,221 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scofield-RTO Training | Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar">
+        <div class="sidebar-header">
+            <img src="logo.jpg" alt="RTO Training Logo" class="sidebar-logo">
+            <h2 class="sidebar-brand">Scofield-RTO</h2>
+        </div>
+        
+        <nav class="sidebar-nav">
+            <ul class="sidebar-menu">
+                <li class="menu-item active">
+                    <a href="index.html" class="menu-link">
+                        <i class="fas fa-home"></i>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="courses.html" class="menu-link">
+                        <i class="fas fa-graduation-cap"></i>
+                        <span>Courses</span>
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="resources.html" class="menu-link">
+                        <i class="fas fa-folder-open"></i>
+                        <span>Resources</span>
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="todo.html" class="menu-link">
+                        <i class="fas fa-clipboard-list"></i>
+                        <span>My Tasks</span>
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="shopping.html" class="menu-link">
+                        <i class="fas fa-store"></i>
+                        <span>Store</span>
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="cart.html" class="menu-link">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span>Cart</span>
+                        <span class="cart-badge" id="cart-count">0</span>
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="orders.html" class="menu-link">
+                        <i class="fas fa-receipt"></i>
+                        <span>Orders</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        
+        <div class="sidebar-footer">
+            <div class="user-section" id="user-section">
+                <a id="auth-link" href="#" class="user-link">
+                    <i class="fas fa-user-circle"></i>
+                    <span>Login</span>
+                </a>
+            </div>
+        </div>
+    </aside>
+
+    <!-- Main Content Area -->
+    <main class="main-content">
+        <!-- Top Header Bar -->
+        <header class="top-header">
+            <div class="header-left">
+                <button class="sidebar-toggle" id="sidebar-toggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <h1 class="page-title">Dashboard</h1>
+            </div>
+            <div class="header-right">
+                <div class="search-box">
+                    <i class="fas fa-search"></i>
+                    <input type="text" placeholder="Search courses, resources...">
+                </div>
+                <div class="notification-bell">
+                    <i class="fas fa-bell"></i>
+                    <span class="notification-dot"></span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Dashboard Content -->
+        <div class="dashboard-content">
+            <!-- Welcome Section -->
+            <section class="welcome-section">
+                <div class="welcome-card">
+                    <div class="welcome-content">
+                        <h2>Welcome to Scofield-RTO Training</h2>
+                        <p>Nationally Recognised IT Training (RTO Code: 91234)</p>
+                        <p class="welcome-description">Earn nationally recognised professional IT certifications with our industry-leading training programs and comprehensive learning resources—delivered by Scofield-RTO (ASQA-approved, RTO Code: 91234) and aligned with Australia's AQF standards.</p>
+                        <div class="welcome-actions">
+                            <a href="courses.html" class="btn-primary">
+                                <i class="fas fa-play"></i>
+                                Start Learning
+                            </a>
+                            <a href="resources.html" class="btn-secondary">
+                                <i class="fas fa-download"></i>
+                                Browse Resources
+                            </a>
+                        </div>
+                    </div>
+                    <div class="welcome-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Stats Grid -->
+            <section class="stats-section">
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-book"></i>
+                        </div>
+                        <div class="stat-content">
+                            <h3>100+</h3>
+                            <p>IT Courses</p>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-folder"></i>
+                        </div>
+                        <div class="stat-content">
+                            <h3>1000+</h3>
+                            <p>Resource Kits</p>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="stat-content">
+                            <h3>10000+</h3>
+                            <p>Students Trained</p>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-award"></i>
+                        </div>
+                        <div class="stat-content">
+                            <h3>ASQA</h3>
+                            <p>Approved RTO</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Featured Courses -->
+            <section class="featured-section">
+                <div class="section-header">
+                    <h2>Featured Courses</h2>
+                    <a href="courses.html" class="view-all-link">View All <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="courses-grid" id="featured-courses-container">
+                    <!-- Courses will be loaded here -->
+                </div>
+            </section>
+
+            <!-- Quick Actions -->
+            <section class="quick-actions">
+                <div class="section-header">
+                    <h2>Quick Actions</h2>
+                </div>
+                <div class="actions-grid">
+                    <a href="todo.html" class="action-card">
+                        <div class="action-icon">
+                            <i class="fas fa-tasks"></i>
+                        </div>
+                        <h3>My Tasks</h3>
+                        <p>Manage your learning tasks</p>
+                    </a>
+                    <a href="shopping.html" class="action-card">
+                        <div class="action-icon">
+                            <i class="fas fa-shopping-bag"></i>
+                        </div>
+                        <h3>Resource Store</h3>
+                        <p>Browse and purchase resources</p>
+                    </a>
+                    <a href="orders.html" class="action-card">
+                        <div class="action-icon">
+                            <i class="fas fa-receipt"></i>
+                        </div>
+                        <h3>My Orders</h3>
+                        <p>View order history</p>
+                    </a>
+                    <a href="resources.html" class="action-card">
+                        <div class="action-icon">
+                            <i class="fas fa-download"></i>
+                        </div>
+                        <h3>Downloads</h3>
+                        <p>Access your resources</p>
+                    </a>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

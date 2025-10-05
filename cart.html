@@ -1,0 +1,121 @@
+<!-- cart.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scofield-RTO Training | Shopping Cart</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar">
+        <div class="sidebar-header">
+            <img src="logo.jpg" alt="RTO Training Logo" class="sidebar-logo">
+            <h2 class="sidebar-brand">Scofield-RTO</h2>
+        </div>
+        
+        <nav class="sidebar-nav">
+            <ul class="sidebar-menu">
+                <li class="menu-item">
+                    <a href="index.html" class="menu-link">
+                        <i class="fas fa-home"></i>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="courses.html" class="menu-link">
+                        <i class="fas fa-graduation-cap"></i>
+                        <span>Courses</span>
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="resources.html" class="menu-link">
+                        <i class="fas fa-folder-open"></i>
+                        <span>Resources</span>
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="todo.html" class="menu-link">
+                        <i class="fas fa-clipboard-list"></i>
+                        <span>My Tasks</span>
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="shopping.html" class="menu-link">
+                        <i class="fas fa-store"></i>
+                        <span>Store</span>
+                    </a>
+                </li>
+                <li class="menu-item active">
+                    <a href="cart.html" class="menu-link">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span>Cart</span>
+                        <span class="cart-badge" id="cart-count">0</span>
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="orders.html" class="menu-link">
+                        <i class="fas fa-receipt"></i>
+                        <span>Orders</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        
+        <div class="sidebar-footer">
+            <div class="user-section" id="user-section">
+                <a id="auth-link" href="#" class="user-link">
+                    <i class="fas fa-user-circle"></i>
+                    <span>Login</span>
+                </a>
+            </div>
+        </div>
+    </aside>
+
+    <!-- Main Content Area -->
+    <main class="main-content">
+        <!-- Top Header Bar -->
+        <header class="top-header">
+            <div class="header-left">
+                <button class="sidebar-toggle" id="sidebar-toggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <h1 class="page-title">Shopping Cart</h1>
+            </div>
+            <div class="header-right">
+                <div class="search-box">
+                    <i class="fas fa-search"></i>
+                    <input type="text" placeholder="Search cart items...">
+                </div>
+                <div class="notification-bell">
+                    <i class="fas fa-bell"></i>
+                    <span class="notification-dot"></span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Cart Content -->
+        <div class="page-content">
+            <div class="content-header">
+                <h2>Shopping Cart</h2>
+                <p>Review your selected items before checkout</p>
+            </div>
+            
+            <div class="cart-section">
+                <div id="cart-items-container"></div>
+                <div class="cart-total">
+                    <h3>Total: <span id="cart-total">$0.00</span></h3>
+                </div>
+                <button class="checkout-button" onclick="checkout()">
+                    <i class="fas fa-credit-card"></i>
+                    Proceed to Checkout
+                </button>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
